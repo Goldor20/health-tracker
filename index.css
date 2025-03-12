@@ -4,7 +4,7 @@
     box-sizing: content-box;
 }
 body{
-    background-color: whitesmoke;
+    background-color: rgb(196, 196, 196);
 }
 
 
@@ -15,14 +15,13 @@ section{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-template-columns: repeat(4, 1fr);
+   
     
     
 }
 
 #lila {
-    background-color: purple;
-    width: 100%;
-  
+    background-image: linear-gradient(rgb(80, 80, 255), rgb(138, 77, 182));
     grid-column-start: 2;
     grid-column-end: 3;
     border-radius: 25px;
@@ -31,6 +30,13 @@ section{
     grid-row-start: 1;
     grid-row-end: 2;
     z-index: 1;
+    position: relative;
+    top: 12vw;
+    width: 90%;
+    margin-left: 10%;
+    padding-bottom: 5vw;
+
+    
     
 }
 #feher{
@@ -40,6 +46,13 @@ section{
     grid-row-start: 1;
     grid-row-end: 2;
     border-radius: 25px;
+    position: relative;
+    top: 12vw;
+    margin-left: 5%;
+    width: 90%;
+    text-align: right;
+
+    
 }
 
 #cim{
@@ -49,7 +62,7 @@ section{
 #kor{
     width: 7vw;
     height: 7vw ;
-    background-color: purple;
+    background-color: rgb(151, 53, 151);
     border-radius: 100%;
     margin: auto;
     border: 3px solid black;
@@ -63,5 +76,41 @@ section{
     color: white;
     font-weight: 700;
     font-size: 2vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
 
+}
+#dsa{
+    font-size: 1.5vw;
+}
+#szoveg{
+    width: 65%;
+    margin-left: 18%;
+    
+}
+#reaction{
+    display: flex;
+    position: relative;
+    right: 6%;
+    top: 20%;
+    background-color: rgb(255, 182, 182);
+    float: right;
+    width: 17vw;
+    text-align: left;
+  
+
+}
+
+
+#memory{
+    position: relative;
+    left: 31.7%;
+    top: 30%;
+    background-color: rgb(255, 182, 182);
+    float: right;
+    width: 17vw;
+  
+}
+#memory p{
+    float: right;
 }
