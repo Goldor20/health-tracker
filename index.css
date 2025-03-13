@@ -15,7 +15,7 @@ section{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-template-columns: repeat(4, 1fr);
-   
+    
     
     
 }
@@ -89,28 +89,129 @@ section{
     
 }
 #reaction{
-    display: flex;
     position: relative;
-    right: 6%;
-    top: 20%;
-    background-color: rgb(255, 182, 182);
+    right: 2.7vw;  
+    top: 4vw;
+    background-color: rgba(255, 109, 109, 0.24);
     float: right;
     width: 17vw;
     text-align: left;
-  
-
+    height: 3vw;
+    align-content: center;
+    border-radius: 0.5vw;
 }
 
 
 #memory{
     position: relative;
-    left: 31.7%;
-    top: 30%;
-    background-color: rgb(255, 182, 182);
+    left: 14.3vw;
+    top: 7vw;
+    background-color: rgba(255, 254, 209, 0.507);
     float: right;
     width: 17vw;
+    height: 3vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    align-content: center;
+    border-radius: 0.5vw;
   
 }
-#memory p{
+
+
+#left{
+    float: left;
+
+}
+#right {
     float: right;
+}
+#verbal{
+    position: relative;
+    right: 2.7vw;  
+    top: 7vw;
+    background-color: rgba(183, 252, 214, 0.425);
+    float: right;
+    width: 17vw;
+    text-align: left;
+    height: 3vw;
+    align-content: center;
+    border-radius: 0.5vw;
+}
+#visual{
+    position: relative;
+    left: 14.3vw;
+    top: 11vw;
+    background-color: rgba(120, 133, 252, 0.418);
+    float: right;
+    width: 17vw;
+    text-align: left;
+    height: 3vw;
+    align-content: center;
+    border-radius: 0.5vw;
+}
+.ho{
+    position: relative;
+    right: 2.7vw;
+    top: 45%;
+    background-color: rgb(85, 81, 81);
+    float: right;
+    width: 17vw;
+    text-align: left;
+    height: 4vw;
+    align-content: center;
+    text-align: center;
+    border-radius: 2vw;
+}
+
+.ho:hover{
+    background: linear-gradient(rgb(80, 80, 255), rgb(138, 77, 182));
+  
+}
+img{
+    float: left;
+  
+}
+#szoveg2 {
+    position: relative;
+    top: 2.2vw;
+    right: 14vw;
+    font-size: 1.5vw;
+}
+@media  screen and (max-width:600px){
+    #lila{
+        width: 100%;
+        margin-left: 0px;
+        top: 0%;
+        border-radius: 0;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+     #kor{
+        width: 25vw;
+        height: 25vw;
+     }
+    section{
+        display: block;
+      
+    }
+    #cim{
+        font-size: 5vw  ;
+    }
+    #great{
+        font-size: 5vw;
+    }
+    #asd{
+        font-size: 10vw;
+    }
+    #dsa{
+        font-size: 5vw;
+    }
+    body{
+        background-color: white;
+    }
+    #reaction{
+        width: 100%;
+        margin: 0;
+        top:0%
+    }
 }
